@@ -1,0 +1,62 @@
+Index: ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.jsoup.Jsoup;\r\nimport org.jsoup.nodes.Document;\r\nimport org.jsoup.nodes.Element;\r\nimport org.jsoup.select.Elements;\r\n\r\nimport java.io.IOException;\r\nimport java.net.URL;\r\nimport java.nio.file.Files;\r\nimport java.nio.file.Path;\r\nimport java.nio.file.Paths;\r\nimport java.nio.file.StandardCopyOption;\r\n\r\n\r\npublic class Main {\r\n    private final static String PATH_TARGET = \"src\\\\data\\\\images\\\\\";\r\n    private final static String PATH_SOURCE = \"https://lenta.ru\";\r\n\r\n    public static void main(String[] args) throws IOException {\r\n        imgFileDownload();\r\n        }\r\n\r\n    private static void imgFileDownload () throws IOException {\r\n        Document doc = Jsoup.connect(PATH_SOURCE).get();\r\n        Elements elements = doc.select(\"img.g-picture\");\r\n        if(!Files.exists(Paths.get(PATH_TARGET))){\r\n            Files.createDirectory(Paths.get(PATH_TARGET));\r\n        }\r\n        for (Element element : elements) {\r\n            String absStr = element.attr(\"abs:src\");\r\n            String fileName = absStr.substring(absStr.lastIndexOf(\"/\") + 1);\r\n            URL url = new URL(absStr);\r\n            Path target = Paths.get(PATH_TARGET + fileName);\r\n\r\n            Files.copy(url.openStream(), target, StandardCopyOption.REPLACE_EXISTING);\r\n            System.out.printf(\"FILE > %s >> DOWNLOADED\\nFROM > %s\\n\\n\", target.getFileName(), absStr);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java	(revision d48a5213b6d4a7b4a0d6df7e7ca26d9ec96874eb)
++++ ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java	(date 1604677285262)
+@@ -1,6 +1,5 @@
+ import org.jsoup.Jsoup;
+ import org.jsoup.nodes.Document;
+-import org.jsoup.nodes.Element;
+ import org.jsoup.select.Elements;
+ 
+ import java.io.IOException;
+@@ -9,30 +8,24 @@
+ import java.nio.file.Path;
+ import java.nio.file.Paths;
+ import java.nio.file.StandardCopyOption;
+-
++import java.sql.SQLOutput;
++import java.util.ArrayList;
++import java.util.List;
+ 
+ public class Main {
+-    private final static String PATH_TARGET = "src\\data\\images\\";
+-    private final static String PATH_SOURCE = "https://lenta.ru";
+-
+     public static void main(String[] args) throws IOException {
+-        imgFileDownload();
+-        }
+-
+-    private static void imgFileDownload () throws IOException {
+-        Document doc = Jsoup.connect(PATH_SOURCE).get();
+-        Elements elements = doc.select("img.g-picture");
+-        if(!Files.exists(Paths.get(PATH_TARGET))){
+-            Files.createDirectory(Paths.get(PATH_TARGET));
+-        }
+-        for (Element element : elements) {
+-            String absStr = element.attr("abs:src");
+-            String fileName = absStr.substring(absStr.lastIndexOf("/") + 1);
+-            URL url = new URL(absStr);
+-            Path target = Paths.get(PATH_TARGET + fileName);
+-
+-            Files.copy(url.openStream(), target, StandardCopyOption.REPLACE_EXISTING);
+-            System.out.printf("FILE > %s >> DOWNLOADED\nFROM > %s\n\n", target.getFileName(), absStr);
++        Document doc = Jsoup.connect("https://lenta.ru").get();
++        Elements elements = doc.select("img");
++        System.out.println("SIZE -1   " + elements.get(elements.size()-3));
++        System.out.println("SIZE -1   " + elements.get(elements.size()-2));
++        System.out.println("SIZE LAST   " + elements.get(elements.size()-1));
++        List<Path> pathFilesToCopy = new ArrayList<>();
++        for (int i = 0; i<elements.size()-3; i++) {
++            String str = elements.get(i).attr("src");
++            URL url = new URL(str);
++            Path target = Paths.get("src\\data\\" + str.substring(str.lastIndexOf("/")+1));
++            Files.copy(url.openStream(),target, StandardCopyOption.REPLACE_EXISTING);
+         }
++
+     }
+ }

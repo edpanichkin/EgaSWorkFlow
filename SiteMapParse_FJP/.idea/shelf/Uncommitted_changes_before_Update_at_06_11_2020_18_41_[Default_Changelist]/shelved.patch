@@ -1,0 +1,170 @@
+Index: ../09_FilesAndNetwork/JSoupParse/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.jsoup.Jsoup;\r\nimport org.jsoup.nodes.Document;\r\nimport org.jsoup.select.Elements;\r\n\r\nimport java.io.IOException;\r\nimport java.net.URL;\r\nimport java.nio.file.Files;\r\nimport java.nio.file.Path;\r\nimport java.nio.file.Paths;\r\nimport java.nio.file.StandardCopyOption;\r\nimport java.sql.SQLOutput;\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) throws IOException {\r\n        Document doc = Jsoup.connect(\"https://lenta.ru\").get();\r\n        Elements elements = doc.select(\"img\");\r\n        System.out.println(\"SIZE -1   \" + elements.get(elements.size()-3));\r\n        System.out.println(\"SIZE -1   \" + elements.get(elements.size()-2));\r\n        System.out.println(\"SIZE LAST   \" + elements.get(elements.size()-1));\r\n        List<Path> pathFilesToCopy = new ArrayList<>();\r\n        for (int i = 0; i<elements.size()-3; i++) {\r\n            String str = elements.get(i).attr(\"src\");\r\n            URL url = new URL(str);\r\n            Path target = Paths.get(\"src\\\\data\\\\\" + str.substring(str.lastIndexOf(\"/\")+1));\r\n            Files.copy(url.openStream(),target, StandardCopyOption.REPLACE_EXISTING);\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../09_FilesAndNetwork/JSoupParse/src/main/java/Main.java	(revision 1164a462075bdb0482fe094e78d79be3ad5949c1)
++++ ../09_FilesAndNetwork/JSoupParse/src/main/java/Main.java	(date 1604284384924)
+@@ -1,5 +1,6 @@
+ import org.jsoup.Jsoup;
+ import org.jsoup.nodes.Document;
++import org.jsoup.nodes.Element;
+ import org.jsoup.select.Elements;
+ 
+ import java.io.IOException;
+@@ -8,24 +9,30 @@
+ import java.nio.file.Path;
+ import java.nio.file.Paths;
+ import java.nio.file.StandardCopyOption;
+-import java.sql.SQLOutput;
+-import java.util.ArrayList;
+-import java.util.List;
++
+ 
+ public class Main {
++    private final static String PATH_TARGET = "src\\data\\images\\";
++    private final static String PATH_SOURCE = "https://lenta.ru";
++
+     public static void main(String[] args) throws IOException {
+-        Document doc = Jsoup.connect("https://lenta.ru").get();
+-        Elements elements = doc.select("img");
+-        System.out.println("SIZE -1   " + elements.get(elements.size()-3));
+-        System.out.println("SIZE -1   " + elements.get(elements.size()-2));
+-        System.out.println("SIZE LAST   " + elements.get(elements.size()-1));
+-        List<Path> pathFilesToCopy = new ArrayList<>();
+-        for (int i = 0; i<elements.size()-3; i++) {
+-            String str = elements.get(i).attr("src");
+-            URL url = new URL(str);
+-            Path target = Paths.get("src\\data\\" + str.substring(str.lastIndexOf("/")+1));
+-            Files.copy(url.openStream(),target, StandardCopyOption.REPLACE_EXISTING);
++        imgFileDownload();
++        }
++
++    private static void imgFileDownload () throws IOException {
++        Document doc = Jsoup.connect(PATH_SOURCE).get();
++        Elements elements = doc.select("img.g-picture");
++        if(!Files.exists(Paths.get(PATH_TARGET))){
++            Files.createDirectory(Paths.get(PATH_TARGET));
++        }
++        for (Element element : elements) {
++            String absStr = element.attr("abs:src");
++            String fileName = absStr.substring(absStr.lastIndexOf("/") + 1);
++            URL url = new URL(absStr);
++            Path target = Paths.get(PATH_TARGET + fileName);
++
++            Files.copy(url.openStream(), target, StandardCopyOption.REPLACE_EXISTING);
++            System.out.printf("FILE > %s >> DOWNLOADED\nFROM > %s\n\n", target.getFileName(), absStr);
+         }
+-
+     }
+ }
+Index: src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.jsoup.Jsoup;\r\nimport org.jsoup.nodes.Document;\r\nimport org.jsoup.nodes.Element;\r\nimport org.jsoup.select.Elements;\r\n\r\nimport java.io.IOException;\r\nimport java.util.ArrayList;\r\nimport java.util.HashSet;\r\nimport java.util.List;\r\nimport java.util.Set;\r\n\r\npublic class Main {\r\n    private final static String PATH_SOURCE = \"https://skillbox.ru/code\";\r\n    private final static String ELEMENT_SEL = \"a[href]\";\r\n    private static int SUM = 0;\r\n\r\n    public static void main(String[] args) throws IOException {\r\n        Document doc = Jsoup.connect(PATH_SOURCE).maxBodySize(0).get();\r\n        Elements links = doc.select(ELEMENT_SEL);\r\n        List<String> listHref= hrefList(doc.select(ELEMENT_SEL),PATH_SOURCE);\r\n        printListDebug(\"RAWDATA\", listHref);\r\n        //printListDebug(\"CLEAN\", pathListDmnClean(listHref, PATH_SOURCE));\r\n        List<String> listHref2= hrefList(doc.select(ELEMENT_SEL),\"https://www.skillbox.ru/code/design\");\r\n        printListDebug(\"code\", listHref2);\r\n\r\n      //  List<String> list = pathListDmnClean(listHref,PATH_SOURCE);\r\n       // System.out.println(\"SIZE \" + list.size());\r\n      //  printListDebug(\"final\", list);\r\n\r\n    }\r\n\r\n    //filter from garbage. only PATH & endBy /\r\n    public static List<String> hrefList (Elements links, String path) throws IOException {\r\n\r\n        List<String> listHref= new ArrayList<>();\r\n\r\n        for (Element e: links){\r\n            String s = e.attr(\"href\");\r\n            if (s.startsWith(\"/\") && s.endsWith(\"/\"))\r\n            {\r\n                s = PATH_SOURCE + s;\r\n            }\r\n            listHref.add(s);\r\n\r\n        }\r\n        sumHref(listHref.size());\r\n        //printListDebug(path, pathListDmnClean(listHref,path));\r\n        return pathListDmnClean(listHref,path);\r\n        //return listHref;\r\n    }\r\n\r\n    public static List<String> pathListDmnClean (List<String> listToClean, String parent) throws IOException {\r\n        Set<String> setClean = new HashSet<>();\r\n        Document doc = null;\r\n        for (String l: listToClean) {\r\n            if(l.startsWith(parent) && l.endsWith(\"/\")) {\r\n                hrefList(Jsoup.connect(PATH_SOURCE).maxBodySize(0).get().select(ELEMENT_SEL),l);\r\n                setClean.add(l);\r\n            }\r\n        }\r\n        return new ArrayList<>(setClean);\r\n    }\r\n\r\n    public static void printListDebug (String info, List<String> list) {\r\n        info = \"DEBUG_PRINT \" + info + \" :\";\r\n        for (String l: list) {\r\n            System.out.println(info + l + \"  \" + list.size());\r\n        }\r\n    }\r\n//    public static void firstRekurs (List<String> list) throws IOException {\r\n//        for (String l: list) {\r\n//            hrefList(l);\r\n//        }\r\n//    }\r\n\r\n    public static void sumHref(int s) {\r\n        SUM += s;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/Main.java	(revision 1164a462075bdb0482fe094e78d79be3ad5949c1)
++++ src/main/java/Main.java	(date 1604499906773)
+@@ -4,33 +4,31 @@
+ import org.jsoup.select.Elements;
+ 
+ import java.io.IOException;
+-import java.util.ArrayList;
+-import java.util.HashSet;
+-import java.util.List;
+-import java.util.Set;
++import java.util.*;
+ 
+ public class Main {
+-    private final static String PATH_SOURCE = "https://skillbox.ru/code";
++    private final static String PATH_SOURCE = "https://skillbox.ru";
+     private final static String ELEMENT_SEL = "a[href]";
+     private static int SUM = 0;
++    private static SortedSet<String> sourceLinksSet = new TreeSet<>();
+ 
+     public static void main(String[] args) throws IOException {
+         Document doc = Jsoup.connect(PATH_SOURCE).maxBodySize(0).get();
+-        Elements links = doc.select(ELEMENT_SEL);
+-        List<String> listHref= hrefList(doc.select(ELEMENT_SEL),PATH_SOURCE);
+-        printListDebug("RAWDATA", listHref);
+-        //printListDebug("CLEAN", pathListDmnClean(listHref, PATH_SOURCE));
+-        List<String> listHref2= hrefList(doc.select(ELEMENT_SEL),"https://www.skillbox.ru/code/design");
+-        printListDebug("code", listHref2);
+-
+-      //  List<String> list = pathListDmnClean(listHref,PATH_SOURCE);
+-       // System.out.println("SIZE " + list.size());
+-      //  printListDebug("final", list);
++        List<String> listHref= hrefList(doc.select(ELEMENT_SEL));
++        //printListDebug("RAWDATA", listHref);
++        for (int i = 0; i < listHref.size(); i++) {
++            List<String> listHrefNext = hrefList(Jsoup.connect(listHref.get(i)).maxBodySize(0).get().select(ELEMENT_SEL));
++            //printListDebug(listHref.get(i) + " ", listHrefNext);
++        }
++        for (String s:sourceLinksSet) {
++            System.out.println(s);
++        }
++        System.out.println(sourceLinksSet.size());
+ 
+     }
+ 
+     //filter from garbage. only PATH & endBy /
+-    public static List<String> hrefList (Elements links, String path) throws IOException {
++    public static List<String> hrefList (Elements links) throws IOException {
+ 
+         List<String> listHref= new ArrayList<>();
+ 
+@@ -38,34 +36,30 @@
+             String s = e.attr("href");
+             if (s.startsWith("/") && s.endsWith("/"))
+             {
+-                s = PATH_SOURCE + s;
++               s = PATH_SOURCE + s;
+             }
+             listHref.add(s);
+-
+         }
+-        sumHref(listHref.size());
+-        //printListDebug(path, pathListDmnClean(listHref,path));
+-        return pathListDmnClean(listHref,path);
+-        //return listHref;
++        return pathListDmnClean(listHref);
+     }
+ 
+-    public static List<String> pathListDmnClean (List<String> listToClean, String parent) throws IOException {
++    public static List<String> pathListDmnClean (List<String> listToClean) throws IOException {
+         Set<String> setClean = new HashSet<>();
+-        Document doc = null;
+         for (String l: listToClean) {
+-            if(l.startsWith(parent) && l.endsWith("/")) {
+-                hrefList(Jsoup.connect(PATH_SOURCE).maxBodySize(0).get().select(ELEMENT_SEL),l);
++            if(l.startsWith(PATH_SOURCE) && l.endsWith("/")) {
+                 setClean.add(l);
++                sourceLinksSet.add(l.substring(0,l.lastIndexOf("/")));
+             }
+         }
+         return new ArrayList<>(setClean);
+     }
+ 
+     public static void printListDebug (String info, List<String> list) {
+-        info = "DEBUG_PRINT " + info + " :";
++        info = info + " :";
+         for (String l: list) {
+             System.out.println(info + l + "  " + list.size());
+         }
++        System.out.println("_______________________________");
+     }
+ //    public static void firstRekurs (List<String> list) throws IOException {
+ //        for (String l: list) {
+@@ -73,7 +67,4 @@
+ //        }
+ //    }
+ 
+-    public static void sumHref(int s) {
+-        SUM += s;
+-    }
+ }
+\ No newline at end of file

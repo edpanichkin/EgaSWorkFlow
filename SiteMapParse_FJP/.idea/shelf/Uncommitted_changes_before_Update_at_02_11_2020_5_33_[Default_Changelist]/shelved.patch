@@ -1,0 +1,313 @@
+Index: ../08_ExceptionsDebuggingAndTesting/SPBMetro/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8a5e1234-1100-4917-9bdf-687150e205e8\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/../../.idea/java_basics.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/CorporateCompany.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/jarRepositories.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Company.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Company.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Employee.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Employee.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SPBMetro.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SPBMetro.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1d7Leqsivitwzysie9ZmLsnbI37\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1559622580090\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\r\n      <recent name=\"$PROJECT_DIR$\" />\r\n    </key>\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$\" />\r\n      <recent name=\"$PROJECT_DIR$/src/main/java\" />\r\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.RouteCalculatorTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"SPBMetro\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"All in SPBMetro\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SPBMetro\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"package\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RouteCalculatorTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SPBMetro\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"RouteCalculatorTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RouteCalculatorTest.testTimeOfRouteWithTwoConnections\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"SPBMetro\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"RouteCalculatorTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testTimeOfRouteWithTwoConnections\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.RouteCalculatorTest\" />\r\n        <item itemvalue=\"JUnit.RouteCalculatorTest.testTimeOfRouteWithTwoConnections\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JUnit.All in SPBMetro\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8a5e1234-1100-4917-9bdf-687150e205e8\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1559569584327</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1559569584327</updated>\r\n      <workItem from=\"1591771285128\" duration=\"5148000\" />\r\n      <workItem from=\"1592198229368\" duration=\"8722000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"230\" y=\"30\" key=\"#Java\" timestamp=\"1591780757867\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"230\" y=\"30\" key=\"#Java/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591780757867\" />\r\n    <state x=\"120\" y=\"65\" key=\"#Project_Structure\" timestamp=\"1591778875085\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"120\" y=\"65\" key=\"#Project_Structure/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591778875085\" />\r\n    <state x=\"94\" y=\"146\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1591771605713\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"94\" y=\"146\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591771605713\" />\r\n    <state x=\"92\" y=\"92\" width=\"1096\" height=\"800\" key=\"#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog\" timestamp=\"1592212417427\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"92\" y=\"92\" width=\"1096\" height=\"800\" key=\"#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1592212417427\" />\r\n    <state x=\"445\" y=\"197\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1591779538792\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"445\" y=\"197\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591779538792\" />\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1592453832543\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1592453832543\" />\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.center\" timestamp=\"1592453832543\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1592453832543\" />\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.left\" timestamp=\"1592453832543\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1592453832543\" />\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.right\" timestamp=\"1592453832543\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"259\" key=\"GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1592453832543\" />\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1591779632158\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.bottom/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591779632158\" />\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.center\" timestamp=\"1591779632158\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.center/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591779632158\" />\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.left\" timestamp=\"1591779632157\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.left/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591779632157\" />\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.right\" timestamp=\"1591779632158\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state width=\"1236\" height=\"320\" key=\"GridCell.Tab.1.right/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591779632158\" />\r\n    <state x=\"220\" y=\"226\" key=\"IDE.errors.dialog\" timestamp=\"1591780762975\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"220\" y=\"226\" key=\"IDE.errors.dialog/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591780762975\" />\r\n    <state x=\"449\" y=\"405\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1591771336839\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"984\" />\r\n    </state>\r\n    <state x=\"449\" y=\"405\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984/1280.0.1280.1024@0.0.1280.984\" timestamp=\"1591771336839\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../08_ExceptionsDebuggingAndTesting/SPBMetro/.idea/workspace.xml	(revision bea2d33c5dbcaad85ffd508f87f87241806e3905)
++++ ../08_ExceptionsDebuggingAndTesting/SPBMetro/.idea/workspace.xml	(date 1601817855715)
+@@ -20,17 +20,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/../../.idea/java_basics.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/CorporateCompany.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Company.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../06_InheritanceAndPolymorphism/CorporateCompany/src/main/java/companyClasses/Employee.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../11_Multithreading/Transactions/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/test/java/BankTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SPBMetro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPBMetro.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/main/java/Account.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/main/java/Bank.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_Multithreading/Transactions/src/main/java/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -59,6 +55,12 @@
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559622580090" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="project.structure.last.edited" value="Modules" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.2" />
+@@ -130,6 +132,7 @@
+       <updated>1559569584327</updated>
+       <workItem from="1591771285128" duration="5148000" />
+       <workItem from="1592198229368" duration="8722000" />
++      <workItem from="1601303337428" duration="1019000" />
+     </task>
+     <servers />
+   </component>
+Index: ../11_Multithreading/Transactions/src/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Account\r\n{\r\n    public Account(String accNumber, long money) {\r\n        this.money = money;\r\n        this.accNumber = accNumber;\r\n    }\r\n\r\n    private long money;\r\n    private String accNumber;\r\n    private boolean isFraud = false;\r\n\r\n    public boolean isFraud() {\r\n        return isFraud;\r\n    }\r\n\r\n    public void setFraud(boolean fraud) {\r\n        isFraud = fraud;\r\n    }\r\n\r\n    public synchronized long getMoney() {\r\n        return money;\r\n    }\r\n\r\n    public synchronized void setMoney(long money) {\r\n        this.money = money;\r\n    }\r\n\r\n    public String getAccNumber() {\r\n        return accNumber;\r\n    }\r\n\r\n    public void setAccNumber(String accNumber) {\r\n        this.accNumber = accNumber;\r\n    }\r\n\r\n\r\n}\r\n
+===================================================================
+--- ../11_Multithreading/Transactions/src/Account.java	(revision bea2d33c5dbcaad85ffd508f87f87241806e3905)
++++ ../11_Multithreading/Transactions/src/main/java/Account.java	(date 1601315725171)
+@@ -20,6 +20,12 @@
+     public synchronized long getMoney() {
+         return money;
+     }
++    public synchronized void transferIn(long amount){
++        money += amount;
++    }
++    public synchronized void transferOff(long amount){
++        money -= amount;
++    }
+ 
+     public synchronized void setMoney(long money) {
+         this.money = money;
+Index: ../11_Multithreading/Transactions/src/Bank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.HashMap;\r\nimport java.util.Random;\r\n\r\npublic class Bank\r\n{\r\n    private static final String ACC_NUM_FORMAT = \"%03d\";\r\n    private static final int TIME_TO_FRAUD_CHECK = 10;\r\n    private static final int SUM_TO_FRAUD_CHECK = 50000;\r\n    private int transferCount = 0;\r\n    private int transferOKCount = 0;\r\n    private HashMap<String, Account> accounts;\r\n    private final Random random = new Random();\r\n\r\n    public Bank (){\r\n        this.accounts = new HashMap<>();\r\n    }\r\n\r\n    public synchronized boolean isFraud(String fromAccountNum, String toAccountNum, long amount)\r\n        throws InterruptedException\r\n    {\r\n        Thread.sleep(TIME_TO_FRAUD_CHECK);\r\n        return random.nextBoolean();\r\n    }\r\n\r\n    public void bankBalance() {\r\n        System.out.println(accounts.values().stream().mapToLong(Account::getMoney).sum());\r\n    }\r\n\r\n    public void createAccount (long money) {\r\n        String accNumber = String.format(ACC_NUM_FORMAT, accounts.size() + 1);\r\n        accounts.put(accNumber, new Account(accNumber, money));\r\n\r\n    }\r\n\r\n    /**\r\n     * TODO: реализовать метод. Метод переводит деньги между счетами.\r\n     * Если сумма транзакции > 50000, то после совершения транзакции,\r\n     * она отправляется на проверку Службе Безопасности – вызывается\r\n     * метод isFraud. Если возвращается true, то делается блокировка\r\n     * счетов (как – на ваше усмотрение)\r\n     */\r\n\r\n    public void transfer(String fromAccountNum, String toAccountNum, long amount) throws InterruptedException {\r\n        transferCount++;\r\n        if(!accountFraudCheck(fromAccountNum, toAccountNum)\r\n                && accounts.get(fromAccountNum).getMoney() >= amount)\r\n        {\r\n            if ((amount > SUM_TO_FRAUD_CHECK)) {\r\n                if (isFraud(fromAccountNum, toAccountNum, amount)) {\r\n                    blockAfterFraudCheck(fromAccountNum, toAccountNum);\r\n                } else {\r\n                    transferOperationApproved(fromAccountNum, toAccountNum, amount);\r\n                }\r\n            }\r\n            transferOperationApproved(fromAccountNum, toAccountNum, amount);\r\n        }\r\n    }\r\n\r\n    private boolean accountFraudCheck(String fromAccountNum, String toAccountNum) {\r\n        return  accounts.get(fromAccountNum).isFraud() && accounts.get(toAccountNum).isFraud();\r\n    }\r\n    private void blockAfterFraudCheck(String fromAccountNum, String toAccountNum){\r\n        accounts.get(fromAccountNum).setFraud(true);\r\n        accounts.get(toAccountNum).setFraud(true);\r\n    }\r\n\r\n    /**\r\n     * TODO: реализовать метод. Возвращает остаток на счёте.\r\n     */\r\n    public long getAccountBalance(String accountNum)\r\n    {\r\n        return accounts.get(accountNum).getMoney();\r\n    }\r\n\r\n    public void printBlockedCount() {\r\n        System.out.println(\"Blocked accounts: \" + accounts.values().stream().filter(Account::isFraud).count()\r\n                + \" | Active accounts: \" + accounts.values().stream().filter(a -> !a.isFraud()).count());\r\n\r\n    }\r\n    private void transferOperationApproved (String fromAccountNum, String toAccountNum, long amount){\r\n        transferOKCount++;\r\n        accounts.get(fromAccountNum).setMoney(accounts.get(fromAccountNum).getMoney() - amount);\r\n        accounts.get(toAccountNum).setMoney(accounts.get(toAccountNum).getMoney() + amount);\r\n    }\r\n    public void debugPrint(){\r\n        bankBalance();\r\n        System.out.printf(\"Transfers %s, OK %s\\n\",\r\n            transferCount, transferOKCount);\r\n}\r\n\r\n\r\n}\r\n
+===================================================================
+--- ../11_Multithreading/Transactions/src/Bank.java	(revision bea2d33c5dbcaad85ffd508f87f87241806e3905)
++++ ../11_Multithreading/Transactions/src/main/java/Bank.java	(date 1601315218162)
+@@ -1,13 +1,14 @@
+ import java.util.HashMap;
+ import java.util.Random;
++import java.util.concurrent.atomic.AtomicInteger;
+ 
+ public class Bank
+ {
+     private static final String ACC_NUM_FORMAT = "%03d";
+     private static final int TIME_TO_FRAUD_CHECK = 10;
+     private static final int SUM_TO_FRAUD_CHECK = 50000;
+-    private int transferCount = 0;
+-    private int transferOKCount = 0;
++    private final AtomicInteger transferCount = new AtomicInteger(0);
++    private final AtomicInteger transferOKCount = new AtomicInteger(0);
+     private HashMap<String, Account> accounts;
+     private final Random random = new Random();
+ 
+@@ -41,7 +42,7 @@
+      */
+ 
+     public void transfer(String fromAccountNum, String toAccountNum, long amount) throws InterruptedException {
+-        transferCount++;
++        transferCount.incrementAndGet();
+         if(!accountFraudCheck(fromAccountNum, toAccountNum)
+                 && accounts.get(fromAccountNum).getMoney() >= amount)
+         {
+@@ -77,15 +78,16 @@
+                 + " | Active accounts: " + accounts.values().stream().filter(a -> !a.isFraud()).count());
+ 
+     }
+-    private void transferOperationApproved (String fromAccountNum, String toAccountNum, long amount){
+-        transferOKCount++;
+-        accounts.get(fromAccountNum).setMoney(accounts.get(fromAccountNum).getMoney() - amount);
+-        accounts.get(toAccountNum).setMoney(accounts.get(toAccountNum).getMoney() + amount);
++    private void transferOperationApproved (String fromAccountNum, String toAccountNum, long amount) throws InterruptedException {
++        transferOKCount.incrementAndGet();
++        accounts.get(fromAccountNum).transferOff(amount);
++        accounts.get(toAccountNum).transferIn(amount);
++        //Thread.sleep(10);
+     }
+     public void debugPrint(){
+         bankBalance();
+         System.out.printf("Transfers %s, OK %s\n",
+-            transferCount, transferOKCount);
++            transferCount.get(), transferOKCount.get());
+ }
+ 
+ 
+Index: ../11_Multithreading/Transactions/src/test/java/BankTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../11_Multithreading/Transactions/src/test/java/BankTest.java	(date 1601315218076)
++++ ../11_Multithreading/Transactions/src/test/java/BankTest.java	(date 1601315218076)
+@@ -0,0 +1,81 @@
++import org.junit.Before;
++import org.junit.*;
++
++import java.util.ArrayList;
++import java.util.List;
++
++import static org.junit.Assert.*;
++
++import static org.junit.Assert.assertEquals;
++
++public class BankTest {
++    Bank bank = new Bank();
++    String acc01 = "001";
++    String acc02 = "002";
++    String acc03 = "003";
++    String acc04 = "004";
++    long inc = 200000000;
++
++
++    @Before
++    public void setUp(){
++        bank.createAccount(inc);
++        bank.createAccount(inc);
++        bank.createAccount(inc);
++        bank.createAccount(inc);
++
++    }
++    @Test
++    public void testTransfer() throws InterruptedException {
++
++        List<Thread> threadList = new ArrayList<>();
++
++        threadList.add(new Thread(() -> {
++            try {
++                for (long j = 0; j < inc/2; j++) {
++                    bank.transfer(acc01, acc02, 1);
++                }
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++        }));
++        threadList.add(new Thread(() -> {
++            try {
++                for (long j = 0; j < inc/2; j++) {
++                    bank.transfer(acc01, acc02, 1);
++                }
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++        }));
++
++        threadList.add(new Thread(() -> {
++            try {
++                for (long j = 0; j < inc; j++) {
++                    bank.transfer(acc02, acc03, 1);
++                }
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++        }));
++        threadList.add(new Thread(() -> {
++            try {
++                for (long j = 0; j < inc; j++) {
++                    bank.transfer(acc03, acc01, 1);
++                }
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++        }));
++
++        threadList.forEach(Thread::start);
++        for(Thread t : threadList){
++            t.join();
++        }
++
++        assertEquals(bank.getAccountBalance(acc01),inc);
++        assertEquals(bank.getAccountBalance(acc02),inc);
++        assertEquals(bank.getAccountBalance(acc03),inc);
++
++    }
++}
+Index: ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.jsoup.Jsoup;\r\nimport org.jsoup.nodes.Document;\r\nimport org.jsoup.nodes.Element;\r\nimport org.jsoup.select.Elements;\r\n\r\nimport java.io.IOException;\r\nimport java.net.URL;\r\nimport java.nio.file.Files;\r\nimport java.nio.file.Path;\r\nimport java.nio.file.Paths;\r\nimport java.nio.file.StandardCopyOption;\r\n\r\n\r\npublic class Main {\r\n    private final static String PATH_TARGET = \"src\\\\data\\\\images\\\\\";\r\n    private final static String PATH_SOURCE = \"https://lenta.ru\";\r\n\r\n    public static void main(String[] args) throws IOException {\r\n        imgFileDownload();\r\n        }\r\n\r\n    private static void imgFileDownload () throws IOException {\r\n        Document doc = Jsoup.connect(PATH_SOURCE).get();\r\n        Elements elements = doc.select(\"img.g-picture\");\r\n        if(!Files.exists(Paths.get(PATH_TARGET))){\r\n            Files.createDirectory(Paths.get(PATH_TARGET));\r\n        }\r\n        for (Element element : elements) {\r\n            String absStr = element.attr(\"abs:src\");\r\n            String fileName = absStr.substring(absStr.lastIndexOf(\"/\") + 1);\r\n            URL url = new URL(absStr);\r\n            Path target = Paths.get(PATH_TARGET + fileName);\r\n\r\n            Files.copy(url.openStream(), target, StandardCopyOption.REPLACE_EXISTING);\r\n            System.out.printf(\"FILE > %s >> DOWNLOADED\\nFROM > %s\\n\\n\", target.getFileName(), absStr);\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java	(revision bea2d33c5dbcaad85ffd508f87f87241806e3905)
++++ ../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java	(date 1599753012872)
+@@ -1,6 +1,5 @@
+ import org.jsoup.Jsoup;
+ import org.jsoup.nodes.Document;
+-import org.jsoup.nodes.Element;
+ import org.jsoup.select.Elements;
+ 
+ import java.io.IOException;
+@@ -9,30 +8,24 @@
+ import java.nio.file.Path;
+ import java.nio.file.Paths;
+ import java.nio.file.StandardCopyOption;
+-
++import java.sql.SQLOutput;
++import java.util.ArrayList;
++import java.util.List;
+ 
+ public class Main {
+-    private final static String PATH_TARGET = "src\\data\\images\\";
+-    private final static String PATH_SOURCE = "https://lenta.ru";
+-
+     public static void main(String[] args) throws IOException {
+-        imgFileDownload();
+-        }
+-
+-    private static void imgFileDownload () throws IOException {
+-        Document doc = Jsoup.connect(PATH_SOURCE).get();
+-        Elements elements = doc.select("img.g-picture");
+-        if(!Files.exists(Paths.get(PATH_TARGET))){
+-            Files.createDirectory(Paths.get(PATH_TARGET));
+-        }
+-        for (Element element : elements) {
+-            String absStr = element.attr("abs:src");
+-            String fileName = absStr.substring(absStr.lastIndexOf("/") + 1);
+-            URL url = new URL(absStr);
+-            Path target = Paths.get(PATH_TARGET + fileName);
+-
+-            Files.copy(url.openStream(), target, StandardCopyOption.REPLACE_EXISTING);
+-            System.out.printf("FILE > %s >> DOWNLOADED\nFROM > %s\n\n", target.getFileName(), absStr);
++        Document doc = Jsoup.connect("https://lenta.ru").get();
++        Elements elements = doc.select("img");
++        System.out.println("SIZE -1   " + elements.get(elements.size()-3));
++        System.out.println("SIZE -1   " + elements.get(elements.size()-2));
++        System.out.println("SIZE LAST   " + elements.get(elements.size()-1));
++        List<Path> pathFilesToCopy = new ArrayList<>();
++        for (int i = 0; i<elements.size()-3; i++) {
++            String str = elements.get(i).attr("src");
++            URL url = new URL(str);
++            Path target = Paths.get("src\\data\\" + str.substring(str.lastIndexOf("/")+1));
++            Files.copy(url.openStream(),target, StandardCopyOption.REPLACE_EXISTING);
+         }
++
+     }
+ }
+Index: ../11_Multithreading/Transactions/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../11_Multithreading/Transactions/pom.xml	(date 1601219063892)
++++ ../11_Multithreading/Transactions/pom.xml	(date 1601219063892)
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>groupId</groupId>
++    <artifactId>Transactions</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <dependencies>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.12</version>
++            <scope>test</scope>
++        </dependency>
++
++    </dependencies>
++
++    
++</project>
+\ No newline at end of file
+diff --git ../11_Multithreading/Transactions/src/Main.java ../11_Multithreading/Transactions/src/main/java/Main.java
+rename from ../11_Multithreading/Transactions/src/Main.java
+rename to ../11_Multithreading/Transactions/src/main/java/Main.java

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f4df74a-122b-445b-8bad-15121a9dc8d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../09_FilesAndNetwork/JsoupParse/src/main/java/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1jbWL882HRPgIDqpvDy31ruJvU8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SiteMapParse_FJP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f4df74a-122b-445b-8bad-15121a9dc8d1" name="Default Changelist" comment="" />
+      <created>1604073212484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604073212484</updated>
+      <workItem from="1604073217283" duration="14419000" />
+      <workItem from="1604144527167" duration="3363000" />
+      <workItem from="1604417767758" duration="8583000" />
+      <workItem from="1604677248072" duration="1125000" />
+      <workItem from="1604825707799" duration="9991000" />
+    </task>
+    <task id="LOCAL-00001" summary="STMFJP_toWork">
+      <created>1604284343253</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604284343253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task 11.3 optimized / (without spaces)">
+      <created>1604834928128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604834928128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="STMFJP_toWork" />
+    <MESSAGE value="Task 11.3 optimized / (without spaces)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 11.3 optimized / (without spaces)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1604073423996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604073423996" />
+    <state x="369" y="107" key="CommitChangelistDialog2" timestamp="1604834924107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="369" y="107" key="CommitChangelistDialog2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604834924107" />
+    <state x="369" y="107" key="CommitChangelistDialog2/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604284337839" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604084642058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604084642058" />
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1605062257011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605062257011" />
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604499787200" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1605062257011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.0.center/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605062257011" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604499787200" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1605062257010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.0.left/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605062257010" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604499787199" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1605062257011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.0.right/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605062257011" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604499787200" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604834942282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604834942282" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604284445037" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605062224161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1605062224161" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1604084508021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/-1366.635.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1604084508021" />
+  </component>
+</project>
