@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e267502f-6fbc-47b7-9a6a-cbcbdf8b9852" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/RetailMongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/test/java/RetailGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_NoSQL/Redis_Date/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/RetailGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/RetailGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_NoSQL/ProductStoreMongo/src/main/java/Store.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="draft" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1kYzNJSgbWoJIrf7lW9bMz8mpzY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users10\EgaS\Documents\SkillboxJava\java_basics\12_SpringBootWebDevelopment\ToDoList" />
+      <recent name="D:\Users10\EgaS\Documents\SkillboxJava\java_basics\12_SpringBootWebDevelopment\ToDoList\src\main\resources\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users10\EgaS\Documents\SkillboxJava\java_basics\12_SpringBootWebDevelopment\ToDoList\target" />
+      <recent name="D:\Users10\EgaS\Documents\SkillboxJava\java_basics\12_SpringBootWebDevelopment\ToDoList\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="todolist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToDoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.DefaultControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todolist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.controller" />
+      <option name="MAIN_CLASS_NAME" value="main.controller.TaskControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="todolist" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TaskControllerTest" />
+        <item itemvalue="JUnit.DefaultControllerTest" />
+        <item itemvalue="JUnit.DefaultControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e267502f-6fbc-47b7-9a6a-cbcbdf8b9852" name="Default Changelist" comment="" />
+      <created>1605892278006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605892278006</updated>
+      <workItem from="1605892310591" duration="361000" />
+      <workItem from="1605893088710" duration="367000" />
+      <workItem from="1606032268151" duration="23946000" />
+      <workItem from="1606493172447" duration="8174000" />
+      <workItem from="1606840600836" duration="2660000" />
+      <workItem from="1606918913220" duration="4702000" />
+      <workItem from="1607277675437" duration="545000" />
+      <workItem from="1608311057962" duration="88000" />
+      <workItem from="1609010555324" duration="1582000" />
+    </task>
+    <task id="LOCAL-00001" summary="toWork">
+      <created>1606072536362</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606072536362</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add @Valid / DTO full REST">
+      <created>1606758902579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606758902579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add @Value someParameter / readyToJar">
+      <created>1606843235049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606843235049</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add @Value someParameter / readyToJar /jar added /.properties to .yml">
+      <created>1606922946825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606922946825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jar added /.properties to .yml">
+      <created>1606923284921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606923284921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="toWork" />
+    <MESSAGE value="add @Valid / DTO full REST" />
+    <MESSAGE value="add @Value someParameter / readyToJar" />
+    <MESSAGE value="add @Value someParameter / readyToJar /jar added /.properties to .yml" />
+    <MESSAGE value="jar added /.properties to .yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="jar added /.properties to .yml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606066603693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606066603693" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1606054312664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606054312664" />
+    <state x="-1041" y="320" key="CommitChangelistDialog2" timestamp="1606923283866">
+      <screen x="-1366" y="320" width="1366" height="728" />
+    </state>
+    <state x="-1041" y="320" key="CommitChangelistDialog2/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606923283866" />
+    <state x="457" y="107" key="CommitChangelistDialog2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606758899844" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609075753973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609075753973" />
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1607017410889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606843527297" />
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607017410889" />
+    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1607017410888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606843527297" />
+    <state width="1877" height="179" key="GridCell.Tab.0.center/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607017410888" />
+    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1607017410888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606843527297" />
+    <state width="1877" height="179" key="GridCell.Tab.0.left/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607017410888" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1607017410889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606843527297" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607017410889" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1606756566353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606756566353" />
+    <state x="-973" y="497" key="Vcs.Push.Dialog.v2" timestamp="1606923289813">
+      <screen x="-1366" y="320" width="1366" height="728" />
+    </state>
+    <state x="-973" y="497" key="Vcs.Push.Dialog.v2/-1366.320.1366.728/0.0.1920.1040@-1366.320.1366.728" timestamp="1606923289813" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606758915146" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607017295651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1607017295651" />
+    <state x="342" y="181" key="new project wizard" timestamp="1609075762304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="181" key="new project wizard/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1609075762304" />
+    <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1606325722278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="755" y="267" key="refactoring.ChangeSignatureDialog/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606325722278" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606038352643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1366.320.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1606038352643" />
+  </component>
+</project>
